@@ -1,0 +1,15 @@
+.item {
+    @apply font-semibold text-slate-500 cursor-pointer bg-slate-100 p-3 rounded-md
+}
+
+.item:hover {
+    @apply text-teal-700 bg-teal-100
+}
+
+.item-active {
+    @apply font-semibold text-teal-600 cursor-pointer bg-teal-100 p-3 rounded-md
+}
+
+.item-active:hover {
+    @apply text-teal-700 bg-teal-100
+}
