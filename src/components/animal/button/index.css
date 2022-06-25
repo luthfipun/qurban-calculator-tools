@@ -1,0 +1,23 @@
+.basic_button_default {
+    @apply px-10 py-1.5 bg-slate-200 rounded-full text-slate-500 font-semibold text-base transition-colors delay-100 duration-500
+}
+
+.basic_button_default:hover {
+    @apply bg-slate-300
+}
+
+.basic_button_primary {
+    @apply px-10 py-1.5 bg-teal-700 rounded-full text-white font-semibold text-base transition-colors delay-100 duration-500
+}
+
+.basic_button_primary:hover {
+    @apply bg-teal-900
+}
+
+.basic_button_primary_disable {
+    @apply px-10 py-1.5 bg-teal-400 rounded-full text-teal-500 font-semibold text-base transition-colors delay-100 duration-500 cursor-not-allowed
+}
+
+.basic_button_disable {
+    @apply px-10 py-1.5 bg-slate-100 rounded-full text-slate-200 font-semibold text-base cursor-not-allowed
+}

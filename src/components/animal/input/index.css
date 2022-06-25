@@ -1,0 +1,7 @@
+input {
+    @apply bg-slate-100 rounded-lg py-1.5 pl-5 pr-12 font-semibold w-full md:w-auto
+}
+
+input:focus {
+    @apply bg-slate-200 outline-none
+}

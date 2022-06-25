@@ -1,0 +1,18 @@
+.item_animal_container {
+    @apply flex flex-col items-center space-y-1
+}
+.item_animal_image {
+    @apply w-24 h-24 bg-teal-100 p-5 rounded-xl cursor-pointer border-2 border-transparent transition-colors delay-100 duration-500
+}
+
+.item_animal_image_selected {
+    @apply w-24 h-24 bg-teal-200 p-5 rounded-xl cursor-pointer border-2 border-teal-700
+}
+
+.item_animal_image:hover {
+    @apply border-2 border-teal-700 bg-teal-200
+}
+
+.item_animal_name {
+    @apply text-slate-500 font-semibold text-sm
+}
