@@ -18,6 +18,7 @@ const IndexPage = () => (
       https://dispertan.bantenprov.go.id/cara-praktis-menghitung-daging-qurban
     </p> */
       // https://pontren.com/2021/07/17/rumus-menghitung-karkas-daging-sapi-dan-kambing/
+      // https://yatimmandiri.org/blog/inspirasi/syarat-qurban/
     }
   </Layout>
 )

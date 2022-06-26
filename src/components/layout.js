@@ -26,8 +26,8 @@ const Layout = ({ children }) => {
   return (
     <div className="flex flex-col h-screen">
       <Header siteTitle={data.site.siteMetadata?.title || `Qurban`} />
-      <main className="md:h-screen flex mt-20 md:mt-0">{children}</main>
-      <footer className="w-full mt-auto">
+      <main className="flex-1 mt-20 md:mt-0">{children}</main>
+      <footer className="w-full">
         © {new Date().getFullYear()} &middot; Built with
         {` `}
         <a href="https://www.gatsbyjs.com">Gatsby</a>

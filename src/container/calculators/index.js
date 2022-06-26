@@ -86,7 +86,7 @@ const Calculator = () => {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center w-full">
+    <div className="flex flex-col items-center justify-center w-full md:h-full">
       {contentView()}
       <div className="flex flex-col md:flex-row space-y-3 md:space-y-0 w-full md:w-auto px-7 md:px-0 md:space-x-3 py-9">
         <BasicButton

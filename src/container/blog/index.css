@@ -1,0 +1,19 @@
+.blog_container {
+    @apply w-full flex flex-col px-5 md:px-10 py-0 md:py-10
+}
+
+.blog_title {
+    @apply font-bold text-lg text-slate-900 py-5 md:text-xl
+}
+
+.blog_paragraf {
+    @apply font-normal text-sm leading-relaxed text-slate-700 text-justify md:text-base
+}
+
+.blog_list {
+    @apply font-semibold text-sm text-slate-800 my-3 ml-2 md:ml-5 md:text-base
+}
+
+.blog_h_space {
+    @apply my-5 h-0.5 bg-slate-100
+}
