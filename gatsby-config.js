@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Qurban`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Sebuah tool atau aplikasi sederhana yang bersifat open source, untuk memudahkan panitia qurban menghitung atau menentukan jumlah berapa berat daging qurban yang akan di berikan kepada mustahik`,
+    author: `@luthfipun`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
@@ -20,15 +20,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Qurban Tools`,
+        short_name: `qurban-tools`,
         start_url: `/`,
-        background_color: `#663399`,
+        background_color: `#FFFFFF`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
+        theme_color: `#14b8a6`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/icons.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-postcss`,

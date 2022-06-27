@@ -27,10 +27,15 @@ const Layout = ({ children }) => {
     <div className="flex flex-col h-screen">
       <Header siteTitle={data.site.siteMetadata?.title || `Qurban`} />
       <main className="flex-1 mt-20 md:mt-0">{children}</main>
-      <footer className="w-full">
-        © {new Date().getFullYear()} &middot; Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+      <footer className="w-full p-5 text-right text-base font-normal text-slate-500">
+        © {new Date().getFullYear()} &middot;{" "}
+        <a
+          href="https://github.com/luthfipun"
+          className="font-semibold text-base text-teal-700"
+          target="__blank"
+        >
+          @luthfipun
+        </a>
       </footer>
     </div>
   )

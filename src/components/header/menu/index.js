@@ -18,7 +18,7 @@ const Menu = () => {
           to={route.Berkurban}
           className={`item${path == route.Berkurban ? "-active" : ""}`}
         >
-          Berkurban
+          BerQurban
         </Link>
         <Link
           to={route.Tentang}

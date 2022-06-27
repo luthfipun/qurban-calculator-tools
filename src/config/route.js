@@ -1,5 +1,5 @@
 const Kalkulator = "/"
-const Berkurban = "/berkurban"
+const Berkurban = "/qurban"
 const Tentang = "/tentang"
 
 export default {

@@ -22,7 +22,7 @@ const Navigation = () => {
             onClick={() => setCollapse(!isCollapse)}
           />
         )}
-        <h2 className="text-2xl font-bold text-slate-800 antialiased">
+        <h2 className="text-2xl font-bold text-slate-700 antialiased">
           Qurban
         </h2>
         <Menu />

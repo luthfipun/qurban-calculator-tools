@@ -44,11 +44,11 @@ const AboutPage = () => (
       <ul className="list-disc">
         <li>
           <a
-            href="https://disnakkan.grobogan.go.id/info/berita/503-mengenal-jenis-jenis-potongan-daging-sapi#:~:text=Karkas%20didefinisikan%20sebagai%20bagian%20tubuh,ekor%20serta%20lemak%20yang%20berlebih."
+            href="https://disnakkan.grobogan.go.id/info/berita/503-mengenal-jenis-jenis-potongan-daging-sapi"
             className="cursor-pointer font-semibold text-teal-700"
             target="__blank"
           >
-            https://disnakkan.grobogan.go.id/info/berita/503-mengenal-jenis-jenis-potongan-daging-sapi#:~:text=Karkas%20didefinisikan%20sebagai%20bagian%20tubuh,ekor%20serta%20lemak%20yang%20berlebih.
+            https://disnakkan.grobogan.go.id/info/berita/503-mengenal-jenis-jenis-potongan-daging-sapi
           </a>
         </li>
         <li>
