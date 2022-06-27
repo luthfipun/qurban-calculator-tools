@@ -3,11 +3,13 @@ module.exports = {
     title: `Qurban`,
     description: `Sebuah tool atau aplikasi sederhana yang bersifat open source, untuk memudahkan panitia qurban menghitung atau menentukan jumlah berapa berat daging qurban yang akan di berikan kepada mustahik`,
     author: `@luthfipun`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `http://localhost:8000`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -41,6 +43,13 @@ module.exports = {
         rule: {
           include: /assets/,
         },
+      },
+    },
+    {
+      resolve: "gatsby-plugin-html2amp",
+      options: {
+        files: ["**/*.html"],
+        dist: "public/amp",
       },
     },
   ],
