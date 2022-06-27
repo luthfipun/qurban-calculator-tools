@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Qurban`,
+    title: `Qurban Tools`,
     description: `Sebuah tool atau aplikasi sederhana yang bersifat open source, untuk memudahkan panitia qurban menghitung atau menentukan jumlah berapa berat daging qurban yang akan di berikan kepada mustahik`,
     author: `@luthfipun`,
     siteUrl: `http://localhost:8000`,
